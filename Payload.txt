@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            ol{
+                color: white; 
+                font-size: 25px;
+                width: 100%;
+                text-align: left;
+                list-style-position: inside;
+                float: left;
+                padding: 0px;
+            }
+            .titles{
+                color: white; 
+                display: inline-block; 
+                width: 20%;
+                text-align: center; 
+                padding: 10px;
+                white-space: nowrap;
+                font-size:3vw
+            }
+            li{
+                text-align: center;
+                padding: 10px;
+                white-space: nowrap;
+                font-size:2vw;
+            }
+            .lDiv{
+                width: 20%; 
+                float:left; 
+                text-align: center;
+                padding: 10px;
+                font-size:2vw;
+            }
+        </style>
+    </head>
+    <body style="background-color: rgb(32, 32, 32);">
+        <div style="width: 100%; display:inline-block; font-size:2vw">
+            <h1 style="color: white; 
+            display: inline; float: left;">To-Do</h1>
+            <h1 style="color: white; 
+            display: inline; float: right;">Date: 07/24/2021</h1>
+        </div>
+        <div style="white-space: nowrap;">
+            <h1 class="titles">Task</h1>
+            <h1 class="titles">Assigned</h1>
+            <h1 class="titles">Status</h1>
+            <h1 class="titles">Completed On</h1>
+        </div>
+        <div style="padding: 10px; width: 100%; 
+                    display: inline-block; min-height: 200px;">
+            <ol>
+                    <li style="display: none;"></li>
+            <!-- START -->
+                <div style="width: 100%;">
+                    
+                    <li style="width: 20%; float:left">
+                    <!-- TASKSTART --> Litter Box <!-- TASKEND -->
+                    </li>
+                    <div class="lDiv">
+                    <!-- NAMESTART --> Brendan <!-- NAMEEND -->
+                    </div>
+                    <div class="lDiv" style="color:green">
+                    <!-- STATUSSTART --> Complete <!-- STATUSEND -->
+                    </div>
+                    <div class="lDiv">
+                    <!-- DATESTART --> 07/25/2021 <!-- DATEEND -->
+                    </div>                
+                </div>
+            <!-- END -->
+            <!-- START -->
+                <div style="width: 100%;">
+                    <li style="width: 20%; float:left">
+                    <!-- TASKSTART --> Windows <!-- TASKEND -->
+                    </li>
+                    <div class="lDiv">
+                    <!-- NAMESTART --> Ally <!-- NAMEEND -->
+                    </div>
+                    <div class="lDiv" style="color:Red">
+                    <!-- STATUSSTART --> Incomplete <!-- STATUSEND -->
+                    </div>
+                    <div class="lDiv">
+                    <!-- DATESTART --> 07/25/2021 <!-- DATEEND -->
+                    </div>
+                </div>
+        <!-- END -->
+            </ol>
+        </div>
+        <!-- TODO: add weather report section, turn on a/c notice -->
+
+    </body>
